@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Source Sans Pro', sans-serif;
     }
+    body {
+        overflow-x: hidden;
+    }
 `;
 
 export const Container = styled.div`
@@ -40,7 +43,7 @@ export const Button = styled.button`
     }
 
     @media screen and (max-width: 960px) {
-        width: 100%;
+        width: 90%;
     }
 `;
 
