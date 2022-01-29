@@ -19,7 +19,7 @@ export const InfoColumn = styled.div`
     flex-basis: 50%;
     margin-bottom: 15px;
     padding-left: 15px;
-    padding: right: 15px;
+    padding-right: 15px;
     max-width: 50%;
 
     @media screen and (max-width: 768px) {

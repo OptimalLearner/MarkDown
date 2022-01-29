@@ -18,11 +18,11 @@ export const Container = styled.div`
     z-index: 1;
     margin: auto;
     padding-left: 50px;
-    padding: right: 50px;
+    padding-right: 50px;
 
     @media screen and (max-width: 990px) {
         padding-left: 30px;
-        padding: right: 30px;
+        padding-right: 30px;
     }
 `;
 
