@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks, NavItemBtn, NavBtnLink } from './Navbar.elements';
-import { Button } from '../../globalStyles';
+import { Brand, Button } from '../../globalStyles';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to="/">
                             <NavIcon />
-                            ULTRA
+                            <Brand> MARKDOWN </Brand>
                         </NavLogo>
                         <MobileIcon onClick={ handleClick }>
                             {click ? <FaTimes /> : <FaBars /> }

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, Form, FormInput, FooterLinksContainer, FooterLinksWrapper, FooterLinksItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, SocialIcon } from "./Footer.elements";
-import { Button } from "../../globalStyles";
+import { Brand, Button } from "../../globalStyles";
 
 const Footer  = () => {
     return (
@@ -56,10 +56,10 @@ const Footer  = () => {
                 <SocialMediaWrap>
                     <SocialLogo to="/">
                         <SocialIcon />
-                        ULTRA
+                        <Brand> MARKDOWN </Brand>
                     </SocialLogo>
                     <WebsiteRights>
-                        ULTRA &copy; 2022
+                        MARKDOWN &copy; 2022
                     </WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href='/' target='_blank' aria-label='Facebook'>

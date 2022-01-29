@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
+export const Brand = styled.span`
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 22px;
+`;
+
 export const Container = styled.div`
     width: 100%;
     max-width: 1300px;

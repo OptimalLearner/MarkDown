@@ -22,7 +22,7 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Jane Doe',
-    headline: 'ULTRA helped me increase my business revenue by 2x in last 2 months!',
+    headline: 'MARKDOWN helped me increase my business revenue by 2x in last 2 months!',
     description: 'Their team is wonderful! I can\'t believe I didn\'t start working with them earlier.',
     buttonLabel: 'View Case Study',
     img: require('../../images/profile.jpg'),

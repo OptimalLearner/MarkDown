@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { FaMagento } from 'react-icons/fa';
+import { FaMarkdown } from 'react-icons/fa';
 
 export const FooterContainer = styled.div`
     background-color: #101522;
@@ -142,7 +142,7 @@ export const SocialLogo = styled(Link)`
     curosr: pointer;
 `;
 
-export const SocialIcon = styled(FaMagento)`
+export const SocialIcon = styled(FaMarkdown)`
     margin-right: 10px;
 `;
 
