@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { GiSchoolBag, GiGoldBar } from 'react-icons/gi';
+import { GiSchoolBag, GiGoldBar, GiDiamondTrophy } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import { PricingSection, PricingWrapper, PricingHeading, PricingContainer, PricingCard, PricingCardInfo, PricingCardCost, PricingCardIcon, PricingCardPlan, PricingCardLength, PricingCardFeatures, PricingCardFeature } from './Pricing.elements';
 
@@ -46,7 +46,7 @@ const Pricing = () => {
                         <PricingCard to="/sign-up">
                             <PricingCardInfo>
                                 <PricingCardIcon>
-                                    <GiGoldBar />
+                                    <GiDiamondTrophy />
                                 </PricingCardIcon>
                                 <PricingCardPlan>Diamond Pack</PricingCardPlan>
                                 <PricingCardCost>$999.99</PricingCardCost>
