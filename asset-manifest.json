@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/MarkDown/static/js/main.9ece6abd.js",
+    "static/media/profile.jpg": "/MarkDown/static/media/profile.afc4d5f90b883a272206.jpg",
+    "static/media/sign-up.svg": "/MarkDown/static/media/sign-up.55774807737be80f384db6d3a1ba8718.svg",
+    "static/media/exclusive-access.svg": "/MarkDown/static/media/exclusive-access.9db995273a5975d6f5991157ab8f4352.svg",
+    "static/media/location.svg": "/MarkDown/static/media/location.3cee47397f0b646cb1b5c66854c033ef.svg",
+    "static/media/product-catalog.svg": "/MarkDown/static/media/product-catalog.174fddee4251502aabc9cd096aa7a99a.svg",
+    "static/media/info-section.svg": "/MarkDown/static/media/info-section.b78bf623d0a1af86e0401db8326d26bc.svg",
+    "static/media/instant-setup.svg": "/MarkDown/static/media/instant-setup.885eeefbd879aa2c1aec40cf1e849816.svg",
+    "static/media/secure-server.svg": "/MarkDown/static/media/secure-server.dd1d656747510d8b9fe4eacd7b728ca7.svg",
+    "index.html": "/MarkDown/index.html",
+    "main.9ece6abd.js.map": "/MarkDown/static/js/main.9ece6abd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9ece6abd.js"
+  ]
+}
