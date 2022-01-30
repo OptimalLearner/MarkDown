@@ -3,6 +3,8 @@ A web-based responsive Marketing Agency website built using **ReactJS** and **St
 
 **Tech Stack Used:**  ReactJS, Styled Components
 
+**Visit the live app:** [View on GitHub Pages](https://optimallearner.github.io/MarkDown/)
+
 **Tutorial Referred:** [Brian Design](https://www.youtube.com/watch?v=iP_HqoCuRI0)
 
 ## Steps to run the app locally
