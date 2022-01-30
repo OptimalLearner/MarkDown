@@ -139,7 +139,7 @@ export const SocialLogo = styled(Link)`
     font-size: 2rem;
     color: #FFF;
     margin-bottom: 16px;
-    curosr: pointer;
+    cursor: pointer;
 `;
 
 export const SocialIcon = styled(FaMarkdown)`
