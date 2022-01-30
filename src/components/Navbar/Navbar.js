@@ -12,6 +12,10 @@ const Navbar = () => {
         setClick(!click);
     }
 
+    const closeMobileMenu = () => {
+        setClick(false);
+    }
+
     const showButton = () => {
         if(window.innerWidth <=960) {
             setButton(false);
@@ -31,7 +35,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#FFF' }}>
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to="/">
+                        <NavLogo to="/" onClick={ closeMobileMenu }>
                             <NavIcon />
                             <Brand> MARKDOWN </Brand>
                         </NavLogo>
@@ -40,29 +44,29 @@ const Navbar = () => {
                         </MobileIcon>
                         <NavMenu onClick={ handleClick } click={ click }>
                             <NavItem>
-                                <NavLinks to="/">
+                                <NavLinks to="/" onClick={ closeMobileMenu }>
                                     Home
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/services">
+                                <NavLinks to="/services" onClick={ closeMobileMenu }>
                                     Services
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/products">
+                                <NavLinks to="/products" onClick={ closeMobileMenu }>
                                     Products
                                 </NavLinks>
                             </NavItem>
                             <NavItemBtn>
                                 {button ? (
-                                    <NavBtnLink to="/sign-up">
+                                    <NavBtnLink to="/sign-up" onClick={ closeMobileMenu }>
                                         <Button fontBig primary>
                                             SIGN UP
                                         </Button>
                                     </NavBtnLink>
                                 ) : (
-                                    <NavBtnLink to="/sign-up">
+                                    <NavBtnLink to="/sign-up" onClick={ closeMobileMenu }>
                                         <Button primary>
                                             SIGN UP
                                         </Button>
